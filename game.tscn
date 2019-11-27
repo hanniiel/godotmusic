@@ -6,9 +6,12 @@
 [ext_resource path="res://intro.tscn" type="PackedScene" id=4]
 [ext_resource path="res://selectmenu.tscn" type="PackedScene" id=5]
 [ext_resource path="res://instruments.tscn" type="PackedScene" id=6]
-[ext_resource path="res://sprites/instruments/Capa 38.png" type="Texture" id=7]
+[ext_resource path="res://sprites/instruments/btnplay.png" type="Texture" id=7]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
 script = ExtResource( 1 )
 Item = ExtResource( 2 )
 Select = ExtResource( 3 )
@@ -25,12 +28,14 @@ visible = false
 visible = false
 margin_right = 1026.0
 margin_bottom = 601.0
+mouse_filter = 2
 
 [node name="GridContainer" type="GridContainer" parent="PanelContainer"]
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 1019.0
 margin_bottom = 594.0
+mouse_filter = 2
 columns = 4
 
 [node name="btngameexit" type="TextureButton" parent="PanelContainer"]

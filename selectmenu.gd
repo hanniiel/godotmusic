@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 signal music_Selected(typo)
 # Called when the node enters the scene tree for the first time.

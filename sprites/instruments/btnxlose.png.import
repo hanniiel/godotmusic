@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Capa 39.png-02cbde34c96c597aa2b028bade45be03.stex"
+path="res://.import/btnxlose.png-343a2153a29aed1dc9eb658c9ed77a0c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/instruments/Capa 39.png"
-dest_files=[ "res://.import/Capa 39.png-02cbde34c96c597aa2b028bade45be03.stex" ]
+source_file="res://sprites/instruments/btnxlose.png"
+dest_files=[ "res://.import/btnxlose.png-343a2153a29aed1dc9eb658c9ed77a0c.stex" ]
 
 [params]
 
