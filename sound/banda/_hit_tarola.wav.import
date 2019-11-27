@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/_hit_tarola.wav-e69d826cbd2fb92b250b515446c75571.sample"
+
+[deps]
+
+source_file="res://sound/banda/_hit_tarola.wav"
+dest_files=[ "res://.import/_hit_tarola.wav-e69d826cbd2fb92b250b515446c75571.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

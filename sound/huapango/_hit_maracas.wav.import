@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/_hit_maracas.wav-53f3a6f363e463ef694589ad50600b3b.sample"
+
+[deps]
+
+source_file="res://sound/huapango/_hit_maracas.wav"
+dest_files=[ "res://.import/_hit_maracas.wav-53f3a6f363e463ef694589ad50600b3b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

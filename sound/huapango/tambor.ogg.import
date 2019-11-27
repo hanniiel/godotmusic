@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tambor.ogg-12faded05be14c560c292c14e272ff87.oggstr"
+
+[deps]
+
+source_file="res://sound/huapango/tambor.ogg"
+dest_files=[ "res://.import/tambor.ogg-12faded05be14c560c292c14e272ff87.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

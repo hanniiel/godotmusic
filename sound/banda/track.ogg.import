@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/track.ogg-d9fbb099f2e4093ece28d3196b3766aa.oggstr"
+
+[deps]
+
+source_file="res://sound/banda/track.ogg"
+dest_files=[ "res://.import/track.ogg-d9fbb099f2e4093ece28d3196b3766aa.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

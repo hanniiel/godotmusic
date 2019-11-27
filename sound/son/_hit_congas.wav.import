@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/_hit_congas.wav-3c5057c452c2754dae2d4c7bfc7879af.sample"
+
+[deps]
+
+source_file="res://sound/son/_hit_congas.wav"
+dest_files=[ "res://.import/_hit_congas.wav-3c5057c452c2754dae2d4c7bfc7879af.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

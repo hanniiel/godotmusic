@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/claves.ogg-c93e561e2318eeca10559c1bd38f006b.oggstr"
+
+[deps]
+
+source_file="res://sound/son/claves.ogg"
+dest_files=[ "res://.import/claves.ogg-c93e561e2318eeca10559c1bd38f006b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

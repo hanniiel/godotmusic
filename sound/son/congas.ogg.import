@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/congas.ogg-001e65c824e84c59d0488a7d58369fc5.oggstr"
+
+[deps]
+
+source_file="res://sound/son/congas.ogg"
+dest_files=[ "res://.import/congas.ogg-001e65c824e84c59d0488a7d58369fc5.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

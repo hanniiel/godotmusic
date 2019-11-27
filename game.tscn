@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://game.gd" type="Script" id=1]
+[ext_resource path="res://item.tscn" type="PackedScene" id=2]
+[ext_resource path="res://itemselect.tscn" type="PackedScene" id=3]
+[ext_resource path="res://intro.tscn" type="PackedScene" id=4]
+[ext_resource path="res://selectmenu.tscn" type="PackedScene" id=5]
+[ext_resource path="res://instruments.tscn" type="PackedScene" id=6]
+[ext_resource path="res://sprites/instruments/Capa 38.png" type="Texture" id=7]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+Item = ExtResource( 2 )
+Select = ExtResource( 3 )
+
+[node name="intro" parent="." instance=ExtResource( 4 )]
+
+[node name="select" parent="." instance=ExtResource( 5 )]
+visible = false
+
+[node name="instruments" parent="." instance=ExtResource( 6 )]
+visible = false
+
+[node name="PanelContainer" type="Control" parent="."]
+visible = false
+margin_right = 1026.0
+margin_bottom = 601.0
+
+[node name="GridContainer" type="GridContainer" parent="PanelContainer"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 1019.0
+margin_bottom = 594.0
+columns = 4
+
+[node name="btngameexit" type="TextureButton" parent="PanelContainer"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 79.9179
+margin_top = -33.0506
+margin_right = 159.918
+margin_bottom = 46.9494
+rect_scale = Vector2( -1, 1 )
+rect_pivot_offset = Vector2( 0.5, 0.5 )
+texture_normal = ExtResource( 7 )
+expand = true
+stretch_mode = 5
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+[connection signal="click" from="intro" to="." method="_on_intro_click"]
+[connection signal="music_Selected" from="select" to="." method="_on_select_music_Selected"]
+[connection signal="on_exit" from="instruments" to="." method="_on_instruments_on_exit"]
+[connection signal="on_next" from="instruments" to="." method="_on_instruments_on_next"]
+[connection signal="pressed" from="PanelContainer/btngameexit" to="." method="_on_btngameexit_pressed"]
